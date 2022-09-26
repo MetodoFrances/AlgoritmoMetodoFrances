@@ -118,7 +118,7 @@ private:
                 _calcularPeriodoDePago(saldoInicial,saldoFinal,cuotaFija,period,'P');
             break;
         case 'T':
-            cout << "\nIngresa cantidad de plazos de gracia parcial: ";
+            cout << "\nIngresa cantidad de plazos de gracia total: ";
             cin >> n;
             for(period; period <= n; ++period)
                 _calcularPeriodoDePago(saldoInicial,saldoFinal,cuotaFija,period,'T');
