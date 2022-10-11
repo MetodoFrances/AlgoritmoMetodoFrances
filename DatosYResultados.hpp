@@ -37,7 +37,7 @@ namespace DatosIniciales {
 
 namespace ResultadosDelLeasing {
     struct ResultadosDelArrendamiento {
-
+        int TIR;
     };
 }
 
